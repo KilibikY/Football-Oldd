@@ -1,0 +1,129 @@
+body {
+    font-family: "Arial";
+    background-color: #8dc63f;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    padding: 0 15px;
+    margin: auto;
+    max-width: 960px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.header p {
+    margin: 0;
+}
+
+.flex-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logo {
+    column-gap: 35px;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 22px;
+    color: #39930d;
+}
+
+.logo b {
+    display: block;
+    font-size: 44px;
+}
+
+.ball {
+    width: 100px;
+    height: 102px;
+}
+
+.contacts p {
+
+    font-size: 22px;
+    color: #39930d;
+    text-align: right;
+}
+
+.logo i,
+.contacts i {
+    display: block;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.menu p {
+    padding: 16px;
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+    background-color: #39930d;
+}
+
+.footer {
+    padding: 15px;
+    margin: 0 -15px;
+    background-color: #39930d;
+    font-size: 14px;
+    color: #fff;
+}
+
+.main {
+    padding: 0;
+}
+
+.main h1 {
+    font-size: 24px;
+    color: #39930d;
+}
+
+.main-menu {
+    margin-bottom: 10px;
+}
+
+.menu > li > a {
+    font-size: 14px;
+    text-decoration: underline;
+    color: #39930d;
+    list-style: none;
+}
+.main-text h1,
+.main-text p, {
+    margin-bottom: 17px;
+}
+.main-text p {
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #343434;
+}
+
+.main-text {
+    min-width: 594px;
+}
+
+.header {
+    padding: 25px 0;
+}
+
+.menu p {
+    min-width: 100px;
+    padding: 20px 11px;
+}
+.menu ul {
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+}
+.menu a {
+    font-size: 14px;
+    line-height: 2.1em;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #39930d;
+}
