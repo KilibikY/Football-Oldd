@@ -13,98 +13,112 @@ body {
     box-sizing: border-box;
 }
 
+html {
+    font-size: 1px;
+}
+
 .header p {
     margin: 0;
 }
 
 .flex-block {
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
     justify-content: space-between;
 }
 
 
-
 .logo {
-    column-gap: 35px;
+    column-gap: 34px;
 }
 
+
 .logo p {
+    text-align: center;
     margin: 0;
-    font-size: 22px;
+    font-size: 11rem;
     color: #39930d;
 }
 
 .logo b {
     display: block;
-    font-size: 44px;
+    font-size: 22rem;
 }
 
 .ball {
-    width: 100px;
-    height: 102px;
+    width: 50rem;
+    height: 51rem;
 }
 
 .contacts p {
-
-    font-size: 22px;
+    font-size: 11rem;
     color: #39930d;
-    text-align: right;
+    text-align: center;
 }
 
 .logo i,
 .contacts i {
     display: block;
-    font-size: 14px;
+    font-size: 7rem;
     color: #5a5a5a;
+}
+
+.menu {
+    width: 100%;
 }
 
 .menu p {
     padding: 16px;
     margin: 0;
-    font-size: 18px;
+    font-size: 9rem;
     color: #fff;
     background-color: #39930d;
+}
+
+
+.main-img {
+    width: 100%;
+    min-height: 200px;
+    object-fit: cover;
+    object-position: 75%;
+    vertical-align: bottom;
 }
 
 .footer {
     padding: 15px;
     margin: 0 -15px;
     background-color: #39930d;
-    font-size: 14px;
+    font-size: 7rem;
     color: #fff;
 }
 
 .main {
-    padding: 0;
+    padding: 25rem 0 29rem;
+    flex-wrap: wrap-reverse;
 }
 
 .main h1 {
-    font-size: 24px;
+    font-size: 12rem;
     color: #39930d;
 }
 
-.main-menu {
-    margin-bottom: 10px;
-}
+
 
 .menu > li > a {
-    font-size: 14px;
+    font-size: 7rem;
     text-decoration: underline;
     color: #39930d;
     list-style: none;
 }
-.main-text h1,
-.main-text p, {
-    margin-bottom: 17px;
-}
-.main-text p {
-    font-size: 14px;
+.main_text p {
+    font-size: 9rem;
     line-height: 1.5em;
     color: #343434;
 }
 
-.main-text {
-    min-width: 594px;
+.main_text {
+    max-width: 584px;
 }
 
 .header {
@@ -112,7 +126,7 @@ body {
 }
 
 .menu p {
-    min-width: 100px;
+    min-width: 300rem;
     padding: 20px 11px;
 }
 .menu ul {
@@ -121,9 +135,42 @@ body {
     list-style: none;
 }
 .menu a {
-    font-size: 14px;
+    font-size: 7rem;
     line-height: 2.1em;
     text-decoration: underline;
     text-transform: uppercase;
     color: #39930d;
 }
+
+@media screen and (max-width: 620px) {
+    .logo {
+        text-align: left;
+    }
+    .contacts {
+        text-align: right;
+    }
+}
+@media screen and (max-width: 768px) {
+    .flex-block {
+        justify-content: center;
+    }
+    .main {
+        flex-wrap: nowrap;
+    }
+}
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 1px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    html {
+        font-size: 1.4px;
+    }
+}
+@media screen and (max-width: 1920px) {
+    html {
+        font-size: 2px;
+    }
+}
+
