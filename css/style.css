@@ -36,22 +36,22 @@ html {
 .logo p {
     text-align: center;
     margin: 0;
-    font-size: 11rem;
+    font-size: 22rem;
     color: #39930d;
 }
 
 .logo b {
     display: block;
-    font-size: 22rem;
+    font-size: 44rem;
 }
 
 .ball {
-    width: 50rem;
-    height: 51rem;
+    width: 100rem;
+    height: 101rem;
 }
 
 .contacts p {
-    font-size: 11rem;
+    font-size: 22rem;
     color: #39930d;
     text-align: center;
 }
@@ -59,7 +59,7 @@ html {
 .logo i,
 .contacts i {
     display: block;
-    font-size: 7rem;
+    font-size: 14rem;
     color: #5a5a5a;
 }
 
@@ -68,10 +68,10 @@ html {
 }
 
 .menu p {
-    max-width: 960px;
+
     padding: 16px;
     margin: 0;
-    font-size: 9rem;
+    font-size: 18rem;
     color: #fff;
     background-color: #39930d;
 }
@@ -89,7 +89,7 @@ html {
     padding: 15px;
     margin: 0 -15px;
     background-color: #39930d;
-    font-size: 7rem;
+    font-size: 14rem;
     color: #fff;
 }
 
@@ -99,7 +99,7 @@ html {
 }
 
 .main h1 {
-    font-size: 12rem;
+    font-size: 24rem;
     color: #39930d;
 }
 
@@ -112,7 +112,7 @@ html {
     list-style: none;
 }
 .main_text p {
-    font-size: 9rem;
+    font-size: 18rem;
     line-height: 1.5em;
     color: #343434;
 }
@@ -126,7 +126,6 @@ html {
 }
 
 .menu p {
-    min-width: 300rem;
     padding: 20px 11px;
 }
 .menu ul {
@@ -135,7 +134,7 @@ html {
     list-style: none;
 }
 .menu a {
-    font-size: 7rem;
+    font-size: 14rem;
     line-height: 2.1em;
     text-decoration: underline;
     text-transform: uppercase;
@@ -157,8 +156,8 @@ html {
     .main {
         flex-wrap: nowrap;
     }
-    .menu p {
-        min-width: 960px;
+    html {
+        font-size: 1.2px;
     }
 }
 @media screen and (min-width: 1024px) {
@@ -173,7 +172,7 @@ html {
 }
 @media screen and (min-width: 2560px) {
     html {
-        font-size: 2px;
+        font-size: 2.5px;
     }
 }
 
