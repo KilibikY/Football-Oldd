@@ -34,6 +34,7 @@ html {
 
 
 .logo p {
+    padding-bottom: 12px;
     text-align: center;
     margin: 0;
     font-size: 22rem;
@@ -56,8 +57,16 @@ html {
     text-align: center;
 }
 
-.logo i,
 .contacts i {
+    padding-top: 11px;
+    display: block;
+    font-size: 14rem;
+    color: #5a5a5a;
+}
+
+.logo i {
+    padding-bottom: 13px;
+    padding-top: 12px; 
     display: block;
     font-size: 14rem;
     color: #5a5a5a;
@@ -86,7 +95,7 @@ html {
 }
 
 .footer {
-    padding: 15px;
+    padding: 15rem;
     margin: 0 -15px;
     background-color: #39930d;
     font-size: 14rem;
@@ -117,16 +126,14 @@ html {
     color: #343434;
 }
 
-.main_text {
-    max-width: 584px;
-}
+
 
 .header {
     padding: 25px 0;
 }
 
 .menu p {
-    padding: 20px 11px;
+    padding: 22px 20px;
 }
 .menu ul {
     margin: 0;
@@ -157,22 +164,46 @@ html {
         flex-wrap: nowrap;
     }
     html {
-        font-size: 1.2px;
+        font-size: 0.8px;
     }
+    .logo p {
+        text-align: left;
+    } 
+    .contacts i {
+        text-align: right;
+    }       
 }
 @media screen and (min-width: 1024px) {
     html {
         font-size: 1.1px;
     }
+    .logo p {
+        text-align: left;
+    } 
+    .contacts i {
+        text-align: right;
+    }   
 }
 @media screen and (min-width: 1440px) {
     html {
         font-size: 1.5px;
     }
+    .logo p {
+        text-align: left;
+    }  
+    .contacts i {
+        text-align: right;
+    }  
 }
 @media screen and (min-width: 1920px) {
     html {
         font-size: 2.1px;
     }
+    .logo p {
+        text-align: left;
+    }  
+    .contacts i {
+        text-align: right;
+    }  
 }
 
